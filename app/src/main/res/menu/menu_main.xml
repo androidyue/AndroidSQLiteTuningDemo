@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.droidyue.emptydemo.MainActivity">
+    <item android:id="@+id/action_insert"
+          android:orderInCategory="100"
+          android:title="Insert"
+          app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/insert_statement"
+        android:title="Insert Statement"
+        />
+
+    <item
+        android:id="@+id/insert_transaction"
+        android:title="Insert Transaction"
+        />
+</menu>
